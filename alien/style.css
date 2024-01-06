@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5f007e;
+}
+
+.container{
+    height: 31.25em; /* */
+    width: 31.25em;
+    border: 2px solid #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%
+}
+
+.ufo {
+    height: 16.87em;
+    width: 11.25em;
+    background: linear-gradient(to bottom, #e6e3f5 90%, #ede544 90%);
+    border-radius: 11.25em 11.25em 0 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+}
+
+.ufo:before {
+    position: absolute;
+    content: "";
+    width: 11.25em;
+    height: 5.62em;
+    background-color: #eebb22;
+    border-radius: 0 0 5.62em 5.62em;
+    bottom: -5.62em;
+}
+
+.ufo::after{
+    position: absolute;
+    content: "";
+    height: 1.25em;
+    width: 7.5em;
+    border: 0.62em solid #eebb22;
+    border-radius: 7.5em 7.5em 0 0;
+    left: 1.25em;
+    border-bottom: none;
+    top: 20.62em;
+    
+}
+
+
+
